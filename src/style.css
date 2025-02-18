@@ -1,0 +1,1548 @@
+html{
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.logo img{
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 90px; 
+  height: 23px;
+}
+
+.navbar {
+  margin-top: 7px;
+  overflow: hidden;
+}
+
+.nav-items {
+  display: flex;
+  margin-top: 4px;
+}
+
+.list-item {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-item a {
+  display: block;
+  color:black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.list-item a:active {
+  color: #7963e0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  justify-content: space-evenly;
+  height: 60px;
+  top:0px;
+  position: fixed;
+  z-index: 20;
+  width: 100%;
+  margin: 0px auto;
+  background-color: #f6f8ff ;
+  box-shadow: .3px .4px .3px black;
+}
+
+
+.quoteBtn button {
+  background-color: #7963e0;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 30px;
+  width: 135px;
+  margin-top: 1px;
+  border: none;
+}
+
+.quoteBtn button:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.logo {
+  margin-top: 7px;
+  margin-left: -12px;
+  width:90px; 
+  height:23px;
+}
+
+.heroSection {
+  background-color: #f6f8ff;
+  width: 100%;
+  margin-top: 45px;
+  padding: 0px 132px;
+  display: flex;
+  flex-direction: row;
+}
+
+.nameIntro {
+  font-size: 20px;
+  color: #7963e0;
+  font-weight: bolder;
+}
+
+.heroText {
+  margin-top: 190px;
+  float: left;
+}
+
+.heroImg {
+  margin-top: 32px;
+  position: relative;
+  z-index: 2;
+  margin-left: 60px;
+}
+
+.heroImg img{
+  width: 550px;
+  height: 650px;
+}
+
+.imgCircle{
+  width: 550px;
+  height: 570px;
+  position: absolute;
+  background-color: lavender;
+  border-radius: 50%;
+  top: 58px;
+  z-index: -1;
+  left: 3px;
+}
+
+.myName {
+  font-size: 60px;
+  font-weight: bold;
+  padding: 4px 0px;
+}
+
+.profession {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 0px;
+}
+
+.randomText {
+  color: darkgray;
+  line-height: 1.4;
+  font-size: 20px;
+  padding-bottom: 10px;
+  width: 500px;
+  display: inline-block;
+}
+
+.hireMeBtn {
+  background-color: #7963e0;
+  color: white;
+  border-radius: 30px;
+  padding: 12px 30px;
+  margin-top: 30px;
+  width: 120px;
+  border: none;
+  font-weight: bold;
+}
+
+.hireMeBtn:hover{
+  cursor: pointer;
+  background-color: #7963e0;
+  opacity: 0.8;
+}
+
+.subheading {
+  text-transform: uppercase;
+  text-align: center;
+  color: darkgray;
+  margin: 15px 0px;
+}
+
+.sectionHeading {
+  font-size: 35px;
+  text-align: center;
+  margin: 15px 0px;
+}
+
+.servicesBlocks{
+  display: grid;
+  gap:40px;
+  grid-template-columns: 335px 335px 335px;
+  padding: 10px 130px;
+  height: max-content;
+}
+
+.serviceBlock{
+  width:335px;
+  height:300px;
+  margin-top:5px;
+}
+
+.serviceHeading{
+  width: 250px; 
+  margin-top:10px; 
+  padding: 0px 30px
+}
+
+.serviceNumber{
+  color: #7963e0;
+  padding-right: 20px;
+  border-right: 2px solid #7963e0;
+  font-size:35px;
+  float: left;
+  height: 70px;
+}
+
+.serviceContent{
+  display: flex; 
+  flex-direction: column;
+}
+
+.servicInfo{
+  margin-left:-1px;
+  line-height: 1.5;
+  width:250px;
+  border-left:1px solid lavender;
+  height: 180px;
+}
+
+#aboutUsSection{
+  width: 85%;
+  height: 580px;
+  margin-left:100px;
+  padding: 80px 0px ;
+}
+
+.imgDiv{
+  float:left;
+  margin-left:33px;
+  height: 400px;
+  object-fit: contain; 
+  border-radius:5px;
+  width: 530px;
+}
+
+.textDiv{
+  float: right;
+  width:550px;
+  margin-right:20px;
+  height: 530px;
+  padding:0px 20px;
+}
+
+.contactInfo{
+  margin-top: 30px;
+  height: 225px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  display:grid;
+  grid-template-columns: 65% 35%;
+  padding:25px;
+}
+
+.contactInfo p{
+  margin-top: 10px;
+  color:darkgray;
+}
+
+.aboutUsText{
+  margin-top: 20px; 
+  color:darkgray; 
+  font-size:19px;
+}
+
+.purpleColor{
+  color:#7963e0
+}
+
+.professionalDetails{
+  padding-top: 30px;
+  position: relative;
+  display: grid;
+  grid-column: 2;
+  height: 750px;
+  column-gap: 23px;
+  width: 82%;
+  margin: 10px auto;
+  grid-template-columns: 49% 49%;
+}
+
+.educationCircle{
+  position:  absolute;
+  background-color: #f1c7a1;
+  width:  47px;
+  height: 47px;
+  top:-11px;
+  border-radius: 50%;
+  left:25px;
+}
+
+.educationContainer {
+  height: 700px;
+}
+
+.experienceContainer {
+  height: 700px;
+}
+
+.educationHeading{
+  margin-left:11px;
+}
+
+.educationCard, .experienceCard{
+  width: 500px;
+  height: 200px;
+  border-radius:15px;
+  padding: 30px;
+  background-color: white;
+  margin: 25px auto;
+}
+
+.performanceMeter{
+  margin-left:15px; 
+  color:darkgray; 
+  font-size:13px;
+}
+
+#qualificationSection{
+  background-color: #f6f8ff;
+  padding-top:70px;
+  padding-bottom: 50px;
+}
+
+.date{
+  color: darkgray;
+  font-size:13px;
+  padding:5px;
+}
+
+.qualificationHeading{
+  color:#7963e0;
+  padding:5px;
+}
+
+.qualificationText{
+  color:darkgray;
+  padding:5px;
+  line-height: 1.8;
+  margin-bottom:0px;
+}
+
+.portfolioList{
+  display:flex;
+  flex-wrap: wrap;
+  margin-top: 2px;
+  justify-content: center;
+  font-size:15px;
+  font-weight: bold;
+}
+
+#portfolioSection{
+  padding-top:70px;
+  padding-bottom: 65px;
+}
+
+.topBadgeDiv{
+  position: absolute;
+  z-index: 10;
+  right:0px;
+}
+
+.badgeList{
+  list-style-type: none;
+  display: flex;
+  margin-top: 2px;
+  padding: 10px;
+}
+
+.badgeText{
+  padding: 5px 7px;
+  font-size: 13px;
+  background-color: black;
+  border-radius: 14px;
+  color: lightgray;
+  margin: 0px 2px;
+}
+
+.portfolioImg:hover .topBadgeDiv{
+  visibility: hidden;
+}
+
+.portfolio-list-item{
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+.portfolio-list-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.portfolio-list-item a:hover{
+  color: #7963e0;
+}
+
+.portfolioImages{
+  margin-top: 10px;
+  width: 100%;
+  display: grid;
+  row-gap: 25px ;
+  column-gap: 15px;
+  grid-template-columns: auto auto auto;
+  width: 82%; margin-left: 133px;
+}
+
+.portfolioImages img{
+  width:345px; 
+  transition: .3s ease-in-out;
+}
+
+.transitionImg:hover{
+   transform: rotate(-10deg) scale(1.2);
+}
+
+.portfolioImg:hover .bottomText{
+  visibility: visible;
+}
+
+.portfolioImg{
+  width: 345px; 
+  height: 345px;
+  border-radius: 20px; 
+  overflow: hidden;
+  position: relative;
+}
+
+.bottomText{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  z-index: 2;
+  background-color: black;
+  color:white;
+  width: 90%;
+  margin-left: 5%;
+  padding:15px;
+  opacity: 0.6;
+  bottom:15px; 
+  border-radius: 12px;
+  visibility: hidden;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+#servicesSection{
+  padding-top: 70px;
+}
+
+.newsImg{
+  display:float;
+}
+
+#newsSection{
+  background-color: #f6f8ff;
+  /* background: teal; */
+  padding-top: 70px;
+  padding-bottom: 15px;
+  height: 850px;
+}
+
+.imagesSection img{
+  margin-right: 0px;
+}
+
+.imagesSection{
+  width: 80%; 
+  margin: 0px auto;
+  position: relative;
+}
+
+.blogImg{
+  margin-left: 450px; 
+  margin-top: 20px;
+}
+
+.cardsContainer{
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  background-color: green;
+  top:20px;
+  z-index: 2;
+}
+
+.newsCard{
+  width: 350px;
+  height: 360px;
+  background-color: white;
+  border: 1px solid #f6f8ff;
+  border-radius: 20px;
+  display: inline-block;
+  margin-right: 35px;
+  padding: 20px 30px ;
+  overflow: hidden;
+  margin-left:20px;
+  cursor:default;
+}
+
+.author{
+  padding: 10px 0px; 
+  color:#7963e0;
+}
+
+.readMore{
+  display: flex;
+  flex-direction: row;
+}
+
+.readMoreImg{
+  width: 15px; 
+  height: 20px; 
+  margin-left:3px; 
+  margin-top:10px;
+}
+
+.rightArrowImg{
+  width: 15px; 
+  height: 20px; 
+  margin-left:3px; 
+  margin-top:10px;
+}
+
+.cardContainer{
+  position: absolute; 
+  margin-top: 125px;
+  width: 900px;
+  padding:0px 20px;
+  margin-left: -45px;
+}
+
+.newsCard img{
+  width: 290px;
+  border-radius: 8px;
+}
+
+
+#contactUsSection{
+  padding-top:70px;
+  padding-bottom:15px;
+}
+
+form{
+  width: 80%; 
+  margin: 0px auto;
+  height: max-content;
+  padding:20px 50px;
+}
+
+.inputDisplay{
+  clear: both;
+  display: grid; 
+  grid-template-columns: auto auto; 
+  justify-content: center; 
+  column-gap: 2px; 
+  row-gap: 20px;
+}
+
+.inputDisplay input{
+  margin-left:20px;
+  padding:25px;
+  border-radius: 5px;
+  border:none;
+  width: 360px;
+  height: 65px;
+  background-color: #f6f8ff;
+}
+
+#mailMessage{
+  margin-left:20px; 
+  background-color: #f6f8ff;
+  border-radius:5px;
+  resize: none;
+  padding:25px;
+  font-family: inherit;
+  font-size: inherit;
+  border:none; 
+  grid-column: 1 / span 2;
+}
+
+#submitBtn{
+  cursor: pointer;
+  grid-column: 1 /span 2;
+  padding:25px 50px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 28%;
+  text-transform: uppercase;
+  border:none;
+  border-radius: 5px;
+  background-color: #7963e0;
+  color: #f6f8ff;
+  transition: background-color .5s ease-in-out;
+}
+
+
+#submitBtn:hover{
+  background-color: #f6f8ff;
+  color:#7963e0;
+  border:1px solid #7963e0;
+}
+
+input:focus{
+  border:1px solid #7963e0;
+  outline: none;
+}
+
+#mailMessage:focus{
+  outline: none;
+  border: 1px solid #7963e0;
+}
+
+.footerMainDiv{
+  width: 100%;
+  height: max-content;
+  background-color: #7963e0;
+  margin-top: 40px;
+}
+
+.copyrights{
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  line-height: 3;
+  color: whitesmoke;
+  background-color: #7963e0;
+  padding: 10px 0px;
+}
+
+.topBtn{
+  position: fixed;
+  bottom: 18px;
+  right: 25px;
+  background-color: #7963e0;
+  border-radius: 50%;
+  width:  40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.footerContainer{
+  width: 85%;
+  /* background-color: yellow; */
+  margin:auto;  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px 26px;
+  color:whitesmoke;
+}
+
+.footerCard{
+  width: 24%;
+  height: 300px;
+  /* border: 1px solid red; */
+  margin:0px 5px;
+}
+
+.cardContent{
+  margin-top:40px;
+  padding:0px 5px;
+}
+
+.footerLinks{
+  list-style-type: none;
+  margin: 30px 5px;
+}
+
+.footerLink{
+  display: inline-block;
+  width: 47px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  height: 45px;
+}
+
+.footerLink a{
+  text-decoration: none;
+  color:black;
+}
+
+.footerImg{
+  border-radius: 50%;
+  width: 30px;
+  margin: 8px auto;
+  display: block;
+}
+
+.exploreList{
+  display: inline-block; 
+  list-style-type: none;
+}
+
+.exploreList li{
+  padding: 7px 0px;
+}
+
+.exploreList li:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+.newletterInput{
+  margin-left: 0px; 
+  margin-top: -1px; 
+  height: 20px; 
+  width: 100%; 
+  background-color: #f6f8ff;
+  padding:20px;
+  border-radius: 3px;
+  border:none;
+  height: 55px;
+}
+
+.newletterImg{
+  width: 35px;
+  background-color: #7963e0;
+  padding: 5px;
+  border-radius: 50%;
+  position: absolute;
+  right: 150px;
+  margin-top: 9px;
+  cursor: pointer;
+}
+
+.contactNumMail{
+  display: inline-block; 
+  margin-left: 10px;
+}
+
+.contactNumMail:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+.newletterInput:focus{
+  border: none;
+}
+
+.address{
+  display: inline-block; 
+  margin-left: 10px;
+}
+
+.firstTabContent{
+  margin-top: 20px; 
+  line-height: 1.8;
+}
+
+.exploreListCols{
+  margin-top: 25px; 
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.grayColor{
+  color:darkgray;
+}
+
+.lightGray{
+  color:darkgray;
+}
+
+.footerAddress{
+  display: flex; 
+  padding-bottom: 30px;
+}
+
+.footerPhone{
+  display: flex;
+}
+
+.footerMail{
+  display: flex; 
+  padding-top: 10px;
+}
+
+.footerContactInfo{
+  margin-top: 30px;
+}
+
+.newsLetterText{
+  margin-top: 20px;
+}
+
+.addressDiv h3{
+  display: inline-block ;
+}
+
+.addressDiv{
+  margin-top:10px;
+  grid-column: 1 / span 2;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 425px) {
+  .container{ 
+    display: inline-block;
+    padding-top: 5px;
+    width: 100%;
+    /* background-color: yellow; */
+    box-shadow: .3px .4px .3px black;
+  }
+
+  .navbar {
+    display: none;
+  }
+  
+  .logo img{
+    margin-top: 8px;
+    margin-left: 35px;
+    width:90px; 
+    height:23px;
+  }
+
+  .quoteBtn{
+    display: none;
+  }
+
+  .heroText{
+    margin-top:80px;
+    float: none;
+    /* background-color: green; */
+    text-align: center;
+    width: 100%;
+    height: 70vh;
+  }
+
+  .randomText {
+    /* background-color: yellow; */
+    padding:10px;
+    width: 100%;
+  }
+
+  .myName {
+    font-size: 45px;
+    font-weight: bold;
+    padding: 4px 0px;
+  }
+
+  .heroSection {
+    /* background-color: orange; */
+    width: 100%;
+    margin-top: 45px;
+    padding: 0px;
+  }
+  
+  .heroImg{
+    display: none;
+  }
+
+  .sectionHeading {
+    font-size: 24px;
+    text-align: center;
+    margin: 15px 0px;
+  }
+
+  .serviceBlock{
+    border-left:1px solid lavender;
+    width: 100%;
+    height:max-content;
+    margin-top:5px;
+  }
+
+  .serviceNumber{
+    display: none;
+  }
+
+
+  .servicesBlocks{
+    grid-template-columns: repeat(1 ,1fr);
+    row-gap:20px;
+    padding: 10px 30px;
+    height: max-content;
+    /* background-color: green; */
+  }
+
+  .serviceHeading{
+    line-height: 1.5;
+    width: 100%; 
+    margin-top:10px; 
+    padding: 0px 20px
+  }
+
+
+  .servicInfo{
+    margin-left:-1px;
+    line-height: 2;
+    font-size: 18px;
+    width:100%;
+    height: max-content;
+  }
+
+
+  .serviceContent img{
+    /* background-color: aqua; */
+    margin-bottom: 10px;
+    margin-left: -10px;
+  }
+
+  #hrServiceSection{
+    display: none;
+  }
+
+  #aboutUsSection{
+    width: 100%;
+    height: max-content;
+    padding: 30px 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .aboutUsImg{
+    width: 100%;
+  }
+
+  .aboutUsImg img{
+    height: max-content;
+    object-fit: contain; 
+    border-radius:5px;
+    width: 90%;
+    height: 300px;
+    margin: 0% 5%;
+    border-radius: 6%;
+  }
+  
+  .textDiv{
+    width:100%;
+    margin-right:0px;
+    height: max-content;
+    padding:20px 20px;
+  }
+  
+  .contactInfo{
+    margin-top: 30px;
+    height: max-content;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    padding: 25px;
+  }
+
+  #qualificationSection{
+    background-color: #f6f8ff;
+    padding-top:30px;
+    padding-bottom: 50px;
+  }
+
+  .professionalDetails{
+    padding-top: 30px;
+    position: relative;
+    display: grid;
+    grid-column: 2;
+    height: max-content;
+    column-gap: 23px;
+    width: 82%;
+    margin: 10px auto;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .educationCard, .experienceCard{
+    width: 100%;
+    line-height: 2;
+    height: max-content;
+    border-radius:15px;
+    padding: 5px;
+    background-color: white;
+    margin: 25px auto;
+  }
+
+  .educationContainer .experienceContainer {
+    height: max-content;
+  }
+
+  .experienceContainer{
+    margin-top: 70px;
+  }
+
+  .experienceContainer h3{
+    margin-left: -15px;
+  }
+  
+  .educationContainer  h3{
+    margin-left: -15px;
+  }
+
+  .educationCircle{
+    left: 0px;
+  }
+
+  .portfolioImages{
+    margin-top: 10px;
+    width: 100%;
+    display: grid;
+    row-gap: 0px ;
+    column-gap: 15px;
+    grid-template-columns: repeat(1, 1fr);
+    /* background-color: green; */
+    align-items: center;
+    margin: 0;
+  }
+
+  .portfolioImg{
+    background-color: #7963e0;
+    width: 375px; 
+    height: 375px;
+    border-radius: 20px; 
+    overflow: hidden;
+    position: relative;
+    margin:20px auto ;
+  }
+  
+  .portfolioImages img{
+    width: 100%;
+    height: 375px;
+    
+  }
+
+  .blogImg{
+    display: none;
+  }
+
+  #newsSection{
+    background-color: #f6f8ff;
+    /* background: teal; */
+    padding-top: 30px;
+    padding-bottom: 15px;
+    height: max-content;
+  }
+
+  .cardContainer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+    position: static; 
+    margin-top: 25px;
+    width: 100%;
+    padding:0px 20px;
+  }
+
+  form{
+    width: 100%; 
+    margin: 0px auto;
+    height: max-content;
+    padding: 20px 0px;
+    /* background-color: green; */
+  }
+  
+  .inputDisplay{
+    display: flex; 
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center; 
+    /* background-color: yellow; */
+  }
+  
+  .inputDisplay input{
+    width: 90%;
+    height: 65px; 
+    margin: 0px;
+    /* background-color: teal; */
+  }
+
+  
+  #mailMessage{ 
+    width: 90%;
+    margin: 0px;
+  }
+
+  #submitBtn{
+    width: 53%;
+  }
+
+
+  .footerContainer{
+    width: 100%;
+    margin:auto;  
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    flex-wrap: wrap;
+    padding: 30px 10px;
+    color:whitesmoke;
+  }
+  
+  .footerCard{
+    width: 100%;
+    /* background-color: #f1c7a1; */
+    padding: 10px;
+    height: max-content;
+    margin-left:0%;
+  }
+
+  .newletterImg{
+    position: absolute;
+    right: 15px;
+  }
+
+  .newletterInput{
+    margin-left: 2.5%; 
+    width: 95%; 
+    height: 65px;
+  }
+
+  .newletterImg{
+    width: 35px;
+    padding: 5px;
+    border-radius: 50%;
+    position: absolute;
+    right: 35px;
+    margin-top: 12px;
+  }
+
+  .footerContactInfo{
+    /* background-color: green; */
+    padding-left: 3px;
+  }
+
+  .exploreList{
+    /* background-color: teal; */
+    margin-left: 4px;
+  }
+
+  .exploreListCols{
+    margin-top: 25px; 
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  
+  .container{ 
+    display: inline-block;
+    padding-top: 5px;
+    width: 100%;
+    /* background-color: yellow; */
+    box-shadow: .3px .4px .3px black;
+  }
+
+  .navbar {
+    display: none;
+  }
+  
+  .logo img{
+    margin-top: 8px;
+    margin-left: 57px;
+    width:90px; 
+    height:20px;
+  }
+
+  .quoteBtn{
+    display: none;
+  }
+
+  .heroText{
+    margin-top:80px;
+    float: none;
+    /* background-color: green; */
+    text-align: left;
+    padding-left: 43px;
+    width: 80%;
+    height: 70vh;
+  }
+
+  .randomText {
+    /* background-color: yellow; */
+    padding-right: 45px;
+    /* padding:10px; */
+    width: 100%;
+  }
+
+  .myName {
+    font-size: 45px;
+    font-weight: bold;
+    padding: 4px 0px;
+  }
+
+  .heroSection {
+    /* background-color: orange; */
+    width: 100%;
+    margin-top: 45px;
+    padding: 0px;
+  }
+  
+  .heroImg{
+    display: inline-block;
+    /* background-color: yellow; */
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+
+  .heroImg img{
+    width: 310px;
+    height: 350px;
+    margin-top: 20px;
+    margin-right: 50px;
+  }
+
+  .imgCircle{
+    width: 310px;
+    height: 310px;
+    position: absolute;
+    background-color: lavender;
+    border-radius: 50%;
+    top: 50px;
+    z-index: -1;
+    left: 3px;
+  }
+
+  #servicesSection{
+    padding-top: 70px;
+  }
+
+  .sectionHeading {
+    font-size: 24px;
+    text-align: center;
+    margin: 15px 0px;
+  }
+
+  .serviceBlock{
+    border-left:none;
+    width: 100%;
+    height:max-content;
+    /* background-color: green; */
+    margin-top:5px;
+    padding: 0px 18px;
+  }
+
+
+  .serviceNumber{
+    color: #7963e0;
+    padding-right: 20px;
+    border-right: 2px solid #7963e0;
+    font-size:35px;
+    float: left;
+    height: 70px;
+  }
+
+
+  .servicesBlocks{
+    grid-template-columns: repeat(1 ,1fr);
+    row-gap:20px;
+    padding: 10px 30px;
+    height: max-content;
+    /* background-color: green; */
+  }
+
+  .serviceHeading{
+    line-height: 1.5;
+    width: 100%; 
+    margin-top:10px; 
+    padding: 0px 20px
+  }
+
+
+  .servicInfo{
+    margin-left:-1px;
+    line-height: 2;
+    font-size: 18px;
+    width:100%;
+    height: max-content;
+  }
+
+
+  .serviceContent img{
+    /* background-color: aqua; */
+    margin-bottom: 10px;
+    margin-left: -10px;
+  }
+
+  #hrServiceSection{
+    display: none;
+  }
+
+  #aboutUsSection{
+    width: 100%;
+    height: max-content;
+    /* background-color: yellow; */
+    padding: 30px 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .aboutUsImg{
+    width: 100%;
+    /* background-color: orange; */
+  }
+
+  .aboutUsImg img{
+    height: max-content;
+    object-fit: contain; 
+    border-radius: 10px;
+    width: 88%;
+    height: max-content;
+    margin-left: 6%;
+    /* background-color: #7963e0; */
+  }
+ 
+  .imgDiv{
+    /* margin-left: 40px;  */
+    background-color: orange;
+  }
+
+  .textDiv{
+    /* background-color: teal; */
+    width: 87%;
+    margin-left: 6%;
+    height: max-content;
+    padding: 20px 0px;
+  }
+  
+  .contactInfo{
+    margin-top: 30px;
+    height: max-content;
+    /* background-color: #7963e0; */
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    display:grid;
+    grid-template-columns: 74% auto;
+    gap: 20px;
+  }
+
+  #qualificationSection{
+    background-color: #f6f8ff;
+    padding-top:30px;
+    padding-bottom: 50px;
+  }
+
+  .professionalDetails{
+    padding-top: 30px;
+    position: relative;
+    display: grid;
+    grid-column: 2;
+    height: max-content;
+    column-gap: 23px;
+    width: 82%;
+    margin: 10px auto;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .educationCard, .experienceCard{
+    width: 100%;
+    line-height: 2;
+    height: max-content;
+    border-radius:15px;
+    padding: 15px;
+    background-color: white;
+    margin: 25px auto;
+  }
+
+  .educationContainer .experienceContainer {
+    height: max-content;
+  }
+
+  .experienceContainer{
+    margin-top: 70px;
+  }
+
+  .experienceContainer h3{
+    margin-left: -24px;
+  }
+  
+  .educationContainer  h3{
+    margin-left: -24px;
+  }
+
+  .educationCircle{
+    left: -10px;
+  }
+
+  .portfolioImages{
+    margin-top: 10px;
+    width: 100%;
+    padding-left: 6%;
+    padding-right: 6%;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0;
+    row-gap: 25px;
+    column-gap: 30px;
+  }
+
+  .portfolioImg{
+    width: 100%; 
+    height: max-content;
+    border-radius: 20px; 
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .portfolioImages img{
+    width: 100%;
+    height: max-content;
+  }
+
+  .blogImg{
+    display: none;
+  }
+
+  #newsSection{
+    background-color: #f6f8ff;
+    /* background: teal; */
+    padding-top: 30px;
+    padding-bottom: 15px;
+    height: max-content;
+  }
+
+  .cardContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* background-color: yellow; */
+    position: static; 
+    margin-top: 25px;
+    width: max-content;
+    column-gap: 25px;
+    /* padding:0px 20px; */
+  }
+
+  .newsCard{
+    width: 330px;
+    height: max-content;
+    background-color: white;
+    border: 1px solid #f6f8ff;
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 0px;
+    padding: 20px 20px ;
+    overflow: hidden;
+    margin-left: -8px;
+    cursor:default;
+  }
+
+  .newsCard img{
+    width: 290px;
+    border-radius: 8px;
+  }
+  
+  form{
+    width: 100%; 
+    margin: 0px auto;
+    height: max-content;
+    padding: 20px 0px;
+    /* background-color: green; */
+  }
+  
+  .inputDisplay{
+    display: flex; 
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center; 
+    /* background-color: yellow; */
+    padding: 0px;
+    column-gap: 20px;
+    margin: 0px;
+  }
+  
+  .inputDisplay input{
+    width: 43%;
+    height: 65px; 
+    margin: 0px;
+    /* background-color: teal; */
+  }
+
+  
+  #mailMessage{ 
+    width: 88%;
+    margin: 0px;
+  }
+
+  #submitBtn{
+    width: 25%;
+    padding: 25px 20px;
+  }
+
+
+  .footerContainer{
+    width: 100%;
+    margin:auto;  
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    flex-wrap: wrap;
+    padding: 30px 35px;
+    color:whitesmoke;
+  }
+  
+  .footerCard{
+    width: 100%;
+    height: max-content;
+    /* margin-left:5%; */
+  }
+
+  .firstTabContent{
+    margin-top: 20px; 
+    line-height: 1.8;
+    /* background-color: #f1c7a1; */
+    line-height: 2.0;
+    padding-right: 110px;
+  }
+
+  
+  .address{
+    display: inline-block; 
+    margin-left: 10px;
+    margin-top: -10px;
+    padding-right: 110px;
+    line-height: 2.0;
+  }
+
+  .newsLetterText{
+    margin-top: 20px;
+    padding-right: 20px;
+    line-height: 2.0;
+  }
+
+  .newletterImg{
+    position: absolute;
+    right: 15px;
+  }
+
+  .newletterInput{
+    margin-left: 0px; 
+    /* background-color: teal; */
+    width: 90%; 
+    height: 65px;
+  }
+
+  .newletterImg{
+    width: 35px;
+    padding: 5px;
+    border-radius: 50%;
+    position: absolute;
+    right: 75px;
+    margin-top: 14px;
+  }
+
+  .footerContactInfo{
+    /* background-color: green; */
+    padding-left: 3px;
+  }
+
+  .exploreList{
+    /* background-color: teal; */
+    margin-left: 4px;
+  }
+
+}
