@@ -596,7 +596,7 @@ form{
 #submitBtn:hover{
   background-color: #f6f8ff;
   color:#7963e0;
-  border:1px solid #7963e0;
+  outline:1px solid #7963e0;
 }
 
 input:focus{
@@ -630,8 +630,8 @@ input:focus{
   position: fixed;
   bottom: 18px;
   right: 25px;
-  background-color: #7963e0;
-  border-radius: 50%;
+  /* background-color: #7963e0; */
+  /* border-radius: 50%; */
   width:  40px;
   height: 40px;
   cursor: pointer;
@@ -792,348 +792,14 @@ input:focus{
   line-height: 1.5;
 }
 
-@media screen and (max-width: 425px) {
-  .container{ 
-    display: inline-block;
-    padding-top: 5px;
-    width: 100%;
-    /* background-color: yellow; */
-    box-shadow: .3px .4px .3px black;
-  }
 
-  .navbar {
-    display: none;
-  }
-  
-  .logo img{
-    margin-top: 8px;
-    margin-left: 35px;
-    width:90px; 
-    height:23px;
-  }
-
-  .quoteBtn{
-    display: none;
-  }
-
-  .heroText{
-    margin-top:80px;
-    float: none;
-    /* background-color: green; */
-    text-align: center;
-    width: 100%;
-    height: 70vh;
-  }
-
-  .randomText {
-    /* background-color: yellow; */
-    padding:10px;
-    width: 100%;
-  }
-
-  .myName {
-    font-size: 45px;
-    font-weight: bold;
-    padding: 4px 0px;
-  }
-
-  .heroSection {
-    /* background-color: orange; */
-    width: 100%;
-    margin-top: 45px;
-    padding: 0px;
-  }
-  
-  .heroImg{
-    display: none;
-  }
-
-  .sectionHeading {
-    font-size: 24px;
-    text-align: center;
-    margin: 15px 0px;
-  }
-
-  .serviceBlock{
-    border-left:1px solid lavender;
-    width: 100%;
-    height:max-content;
-    margin-top:5px;
-  }
-
-  .serviceNumber{
-    display: none;
-  }
-
-
-  .servicesBlocks{
-    grid-template-columns: repeat(1 ,1fr);
-    row-gap:20px;
-    padding: 10px 30px;
-    height: max-content;
-    /* background-color: green; */
-  }
-
-  .serviceHeading{
-    line-height: 1.5;
-    width: 100%; 
-    margin-top:10px; 
-    padding: 0px 20px
-  }
-
-
-  .servicInfo{
-    margin-left:-1px;
-    line-height: 2;
-    font-size: 18px;
-    width:100%;
-    height: max-content;
-  }
-
-
-  .serviceContent img{
-    /* background-color: aqua; */
-    margin-bottom: 10px;
-    margin-left: -10px;
-  }
-
-  #hrServiceSection{
-    display: none;
-  }
-
-  #aboutUsSection{
-    width: 100%;
-    height: max-content;
-    padding: 30px 0px;
-    margin: 0px;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-  
-  .aboutUsImg{
-    width: 100%;
-  }
-
-  .aboutUsImg img{
-    height: max-content;
-    object-fit: contain; 
-    border-radius:5px;
-    width: 90%;
-    height: 300px;
-    margin: 0% 5%;
-    border-radius: 6%;
-  }
-  
-  .textDiv{
-    width:100%;
-    margin-right:0px;
-    height: max-content;
-    padding:20px 20px;
-  }
-  
-  .contactInfo{
-    margin-top: 30px;
-    height: max-content;
-    border: 1px solid lightgray;
-    border-radius: 6px;
-    display:grid;
-    grid-template-columns: 50% 50%;
-    padding: 25px;
-  }
-
-  #qualificationSection{
-    background-color: #f6f8ff;
-    padding-top:30px;
-    padding-bottom: 50px;
-  }
-
-  .professionalDetails{
-    padding-top: 30px;
-    position: relative;
-    display: grid;
-    grid-column: 2;
-    height: max-content;
-    column-gap: 23px;
-    width: 82%;
-    margin: 10px auto;
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .educationCard, .experienceCard{
-    width: 100%;
-    line-height: 2;
-    height: max-content;
-    border-radius:15px;
-    padding: 5px;
-    background-color: white;
-    margin: 25px auto;
-  }
-
-  .educationContainer .experienceContainer {
-    height: max-content;
-  }
-
-  .experienceContainer{
-    margin-top: 70px;
-  }
-
-  .experienceContainer h3{
-    margin-left: -15px;
-  }
-  
-  .educationContainer  h3{
-    margin-left: -15px;
-  }
-
-  .educationCircle{
-    left: 0px;
-  }
-
-  .portfolioImages{
-    margin-top: 10px;
-    width: 100%;
-    display: grid;
-    row-gap: 0px ;
-    column-gap: 15px;
-    grid-template-columns: repeat(1, 1fr);
-    /* background-color: green; */
-    align-items: center;
-    margin: 0;
-  }
-
-  .portfolioImg{
-    background-color: #7963e0;
-    width: 375px; 
-    height: 375px;
-    border-radius: 20px; 
-    overflow: hidden;
-    position: relative;
-    margin:20px auto ;
-  }
-  
-  .portfolioImages img{
-    width: 100%;
-    height: 375px;
-    
-  }
-
-  .blogImg{
-    display: none;
-  }
-
-  #newsSection{
-    background-color: #f6f8ff;
-    /* background: teal; */
-    padding-top: 30px;
-    padding-bottom: 15px;
-    height: max-content;
-  }
-
-  .cardContainer{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    row-gap: 30px;
-    position: static; 
-    margin-top: 25px;
-    width: 100%;
-    padding:0px 20px;
-  }
-
-  form{
-    width: 100%; 
-    margin: 0px auto;
-    height: max-content;
-    padding: 20px 0px;
-    /* background-color: green; */
-  }
-  
-  .inputDisplay{
-    display: flex; 
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center; 
-    /* background-color: yellow; */
-  }
-  
-  .inputDisplay input{
-    width: 90%;
-    height: 65px; 
-    margin: 0px;
-    /* background-color: teal; */
-  }
-
-  
-  #mailMessage{ 
-    width: 90%;
-    margin: 0px;
-  }
-
-  #submitBtn{
-    width: 53%;
-  }
-
-
-  .footerContainer{
-    width: 100%;
-    margin:auto;  
-    display: grid;
-    grid-template-columns: repeat(1 , 1fr);
-    flex-wrap: wrap;
-    padding: 30px 10px;
-    color:whitesmoke;
-  }
-  
-  .footerCard{
-    width: 100%;
-    /* background-color: #f1c7a1; */
-    padding: 10px;
-    height: max-content;
-    margin-left:0%;
-  }
-
-  .newletterImg{
-    position: absolute;
-    right: 15px;
-  }
-
-  .newletterInput{
-    margin-left: 2.5%; 
-    width: 95%; 
-    height: 65px;
-  }
-
-  .newletterImg{
-    width: 35px;
-    padding: 5px;
-    border-radius: 50%;
-    position: absolute;
-    right: 35px;
-    margin-top: 12px;
-  }
-
-  .footerContactInfo{
-    /* background-color: green; */
-    padding-left: 3px;
-  }
-
-  .exploreList{
-    /* background-color: teal; */
-    margin-left: 4px;
-  }
-
-  .exploreListCols{
-    margin-top: 25px; 
-    display: grid;
-    grid-template-columns: auto;
-  }
-}
 
 @media (min-width: 426px) and (max-width: 768px) {
   
   .container{ 
     display: inline-block;
     padding-top: 5px;
-    width: 100%;
+    max-width:100%;
     /* background-color: yellow; */
     box-shadow: .3px .4px .3px black;
   }
@@ -1298,10 +964,10 @@ input:focus{
     /* background-color: #7963e0; */
   }
  
-  .imgDiv{
+  /* .imgDiv{ */
     /* margin-left: 40px;  */
-    background-color: orange;
-  }
+    /* background-color: orange; */
+  /* } */
 
   .textDiv{
     /* background-color: teal; */
@@ -1370,6 +1036,10 @@ input:focus{
     left: -10px;
   }
 
+  .portfolioList{
+    margin-bottom: 20px;
+  }
+
   .portfolioImages{
     margin-top: 10px;
     width: 100%;
@@ -1415,7 +1085,7 @@ input:focus{
     margin-top: 25px;
     width: max-content;
     column-gap: 25px;
-    /* padding:0px 20px; */
+    padding-bottom: 40px;
   }
 
   .newsCard{
@@ -1430,6 +1100,7 @@ input:focus{
     overflow: hidden;
     margin-left: -8px;
     cursor:default;
+    outline: 0.2px solid lightgray;
   }
 
   .newsCard img{
@@ -1544,5 +1215,375 @@ input:focus{
     /* background-color: teal; */
     margin-left: 4px;
   }
-
 }
+
+
+@media screen and (max-width: 425px) {
+  .container{ 
+    display: inline-block;
+    padding-top: 5px;
+    width: 100%;
+    /* background-color: yellow; */
+    box-shadow: .3px .4px .3px black;
+  }
+
+  .navbar {
+    display: none;
+  }
+  
+  .logo img{
+    margin-top: 8px;
+    margin-left: 35px;
+    width:90px; 
+    height:23px;
+  }
+
+  .quoteBtn{
+    display: none;
+  }
+
+
+  .heroText{
+    margin-top: 130px;
+    float: none;
+    /* background-color: green; */
+    text-align: center;
+    width: 100%;
+    height: 70vh;
+    padding-top: 20px;
+  }
+
+  .randomText {
+    /* background-color: yellow; */
+    padding:10px;
+    width: 100%;
+  }
+
+  .myName {
+    font-size: 45px;
+    font-weight: bold;
+    padding: 4px 0px;
+  }
+
+  .heroSection {
+    /* background-color: orange; */
+    width: 100%;
+    margin-top: 45px;
+    padding: 0px;
+  }
+  
+  .heroImg{
+    display: none;
+  }
+
+  .sectionHeading {
+    font-size: 24px;
+    text-align: center;
+    margin: 15px 0px;
+  }
+
+  .serviceBlock{
+    border-left:1px solid lavender;
+    width: 100%;
+    height:max-content;
+    margin-top:5px;
+  }
+
+  .serviceNumber{
+    display: none;
+  }
+
+
+  .servicesBlocks{
+    grid-template-columns: repeat(1 ,1fr);
+    row-gap:20px;
+    padding: 10px 24px;
+    height: max-content;
+    /* background-color: green; */
+  }
+
+  .serviceHeading{
+    line-height: 1.5;
+    width: 100%; 
+    margin-top:10px; 
+    padding: 0px 20px
+  }
+
+
+  .servicInfo{
+    margin-left:-1px;
+    line-height: 2;
+    font-size: 18px;
+    width:100%;
+    height: max-content;
+  }
+
+
+  .serviceContent img{
+    /* background-color: aqua; */
+    margin-bottom: 10px;
+    margin-left: -10px;
+  }
+
+  #hrServiceSection{
+    display: none;
+  }
+
+  #servicesSection{
+    padding-top: 40px;
+  }
+
+  #aboutUsSection{
+    width: 100%;
+    height: max-content;
+    padding: 30px 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .aboutUsImg{
+    width: 100%;
+  }
+
+  .aboutUsImg img{
+    height: max-content;
+    object-fit: contain; 
+    border-radius:5px;
+    width: 88%;
+    height: 300px;
+    margin: 0% 5.5%;
+    border-radius: 6%;
+  }
+  
+  .textDiv{
+    width:100%;
+    margin-right:0px;
+    height: max-content;
+    padding:20px 24px;
+  }
+  
+  .contactInfo{
+    margin-top: 30px;
+    height: max-content;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    padding: 25px;
+  }
+
+  #qualificationSection{
+    background-color: #f6f8ff;
+    padding-top:30px;
+    padding-bottom: 50px;
+  }
+
+  .professionalDetails{
+    padding-top: 30px;
+    position: relative;
+    display: grid;
+    grid-column: 2;
+    height: max-content;
+    column-gap: 23px;
+    width: 82%;
+    margin: 10px auto;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .educationCard, .experienceCard{
+    width: 100%;
+    line-height: 2;
+    height: max-content;
+    border-radius:15px;
+    padding: 5px;
+    background-color: white;
+    margin: 25px auto;
+  }
+
+  .educationContainer .experienceContainer {
+    height: max-content;
+  }
+
+  .experienceContainer{
+    margin-top: 70px;
+  }
+
+  .experienceContainer h3{
+    margin-left: -15px;
+  }
+  
+  .educationContainer  h3{
+    margin-left: -15px;
+  }
+
+  .educationCircle{
+    left: 0px;
+  }
+
+  .portfolioImages{
+    margin-top: 10px;
+    width: 100%;
+    display: grid;
+    row-gap: 0px ;
+    column-gap: 15px;
+    grid-template-columns: repeat(1, 1fr);
+    /* background-color: green; */
+    align-items: center;
+    margin: 0;
+  }
+
+  .portfolioImg{
+    background-color: #7963e0;
+    width: 375px; 
+    height: 375px;
+    border-radius: 20px; 
+    overflow: hidden;
+    position: relative;
+    margin:20px auto ;
+  }
+  
+  .portfolioImages img{
+    width: 100%;
+    height: 375px;
+    
+  }
+
+  .blogImg{
+    display: none;
+  }
+
+  #newsSection{
+    background-color: #f6f8ff;
+    /* background: teal; */
+    padding-top: 30px;
+    padding-bottom: 15px;
+    height: max-content;
+  }
+
+  .imagesSection{
+    /* background-color: green; */
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .cardContainer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+    position: static; 
+    margin-top: 25px;
+    width: 100%;
+    margin: 0;
+    /* padding:0px 20px; */
+    /* background-color: #7963e0; */
+  }
+  .newsCard{
+    width: 95%;
+    height: max-content;
+    background-color: white;
+    border: 1px solid #f6f8ff;
+    border-radius: 20px;
+    display: inline-block;
+    /* margin-right: 20px; */
+    padding: 20px 20px ;
+    overflow: hidden;
+    margin-left: 5px;
+    cursor:default;
+    outline: 0.2px solid lightgray;
+  }
+
+  .newsCard img{
+    width: 100%;
+  }
+  
+  form{
+    width: 100%; 
+    margin: 0px auto;
+    height: max-content;
+    padding: 20px 0px;
+    /* background-color: green; */
+  }
+  
+  .inputDisplay{
+    display: flex; 
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center; 
+    /* background-color: yellow; */
+  }
+  
+  .inputDisplay input{
+    width: 90%;
+    height: 65px; 
+    margin: 0px;
+    /* background-color: teal; */
+  }
+
+  
+  #mailMessage{ 
+    width: 90%;
+    margin: 0px;
+  }
+
+  #submitBtn{
+    width: 53%;
+  }
+
+
+  .footerContainer{
+    width: 100%;
+    margin:auto;  
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    flex-wrap: wrap;
+    padding: 30px 10px;
+    color:whitesmoke;
+  }
+  
+  .footerCard{
+    width: 100%;
+    /* background-color: #f1c7a1; */
+    padding: 10px;
+    height: max-content;
+    margin-left:0%;
+  }
+
+  .newletterImg{
+    position: absolute;
+    right: 15px;
+  }
+
+  .newletterInput{
+    margin-left: 2.5%; 
+    width: 95%; 
+    height: 65px;
+  }
+
+  .newletterImg{
+    width: 35px;
+    padding: 5px;
+    border-radius: 50%;
+    position: absolute;
+    right: 35px;
+    margin-top: 12px;
+  }
+
+  .footerContactInfo{
+    /* background-color: green; */
+    padding-left: 3px;
+  }
+
+  .exploreList{
+    /* background-color: teal; */
+    margin-left: 4px;
+  }
+
+  .exploreListCols{
+    margin-top: 25px; 
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
